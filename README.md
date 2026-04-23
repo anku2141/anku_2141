@@ -1,6 +1,8 @@
-# Ankita Londhe
+<!-- Profile README for Ankita Londhe -->
 
-Cybersecurity | Offensive & Defensive Security | SIEM, Threat Detection, Pentesting
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ankita%20Londhe&fontSize=40&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20|%20Ethical%20Hacker%20|%20Penetration%20Tester&descAlignY=55&descAlign=50" />
+</p>
 
 ---
 
