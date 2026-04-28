@@ -1,18 +1,27 @@
 <!-- Profile README for Ankita Londhe -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ankita%20Londhe&fontSize=40&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20|%20Ethical%20Hacker%20|%20Penetration%20Tester&descAlignY=55&descAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Ankita%20Londhe&fontSize=40&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20|%20SOC%20Aspirant%20|%20Penetration%20Tester&descAlignY=55&descAlign=50" />
 </p>
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-- Cybersecurity-focused professional with hands-on experience in threat detection and security monitoring  
-- Built SIEM-based detection lab using Splunk & Sysmon to analyze endpoint telemetry and process behavior  
-- Experience in network scanning and web security testing with a structured approach to analysis and investigation  
-- Currently focused on improving detection engineering and real-world attack analysis  
+- SOC Analyst aspirant focused on threat detection, log analysis, and SIEM-based monitoring  
+- Built a Splunk + Sysmon lab to simulate real-world attacks and detect malicious process behavior  
+- Skilled in identifying abnormal system activity through event correlation and log analysis  
+- Focused on understanding attacker behavior and improving detection capabilities through hands-on labs
+  
+---
+  
+## Core Capabilities
 
+- Log Analysis & Event Correlation  
+- Threat Detection using SIEM (Splunk)  
+- Basic Incident Investigation  
+- Network Scanning & Enumeration  
+- Web Application Vulnerability Testing  
 
 ---
 
@@ -29,24 +38,38 @@
 
 ---
 
-## 🚀 Projects
+## Projects
 
-### 🔴 Adversary Simulation & Detection Lab
-- Simulated RDP-based attack scenario and analyzed endpoint telemetry  
-- Collected and analyzed Sysmon logs in Splunk (Event ID 1)  
-- Identified suspicious process execution and parent-child relationships  
-- Developed basic detection logic for threat identification 
+### Adversary Simulation & Detection Lab
+- Identified exposed RDP (3389) service and simulated initial access using a Metasploit reverse shell payload  
+- Collected endpoint telemetry via Sysmon and analyzed logs in Splunk using SPL queries  
+- Detected malicious activity through abnormal parent-child process relationships and suspicious command-line patterns  
+- Investigated attack flow from payload delivery to command execution  
+- Mapped observed behavior to MITRE ATT&CK techniques  
+- Developed detection queries to identify early-stage compromise based on process behavior  
 
----
-## 📈 Current Focus
-- SIEM & Detection Engineering  
-- Threat Hunting & Log Analysis  
-- Building hands-on security labs  
----
+🔗 [View Project](https://github.com/anku2141/splunk-sysmon-rdp-detection-lab)
 
 ---
 
-## 📫 Contact
+## Detection Focus
+
+- Monitoring process creation events (Sysmon Event ID 1) for suspicious execution patterns  
+- Detecting abnormal parent-child process relationships indicating potential compromise  
+- Analyzing command-line activity to identify misuse of legitimate tools  
+- Identifying basic indicators of compromise (IOC) from endpoint logs  
+
+---
+
+## Currently Practicing
+
+- Building and testing detection queries for suspicious process and command-line activity  
+- Analyzing attack scenarios and mapping behaviors to MITRE ATT&CK techniques  
+- Improving ability to differentiate normal vs malicious system behavior through continuous log analysis
+  
+---
+
+## Contact
 
 <p>
 <a href="https://www.linkedin.com/in/ankita-londhe-cyber">
