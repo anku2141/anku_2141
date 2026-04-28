@@ -48,7 +48,7 @@
 - Mapped observed behavior to MITRE ATT&CK techniques  
 - Developed detection queries to identify early-stage compromise based on process behavior  
 
-🔗 [View Project](https://github.com/anku2141/splunk-sysmon-rdp-detection-lab)
+🔗 [View Project](https://github.com/anku2141/splunk-sysmon-rdp-detection-lab-)
 
 ---
 
